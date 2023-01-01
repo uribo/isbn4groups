@@ -119,6 +119,7 @@ df_publisher <-
   "2010001018534", "407", "実教出版", "實教出版株式会社", "https://www.jikkyo.co.jp",
   "4010001046252", "408", "実業之日本社", "株式会社實業之日本社", "https://www.j-n.co.jp",
   "4130001014767", "409", "人文書院", "株式会社人文書院", "http://www.jimbunshoin.co.jp",
+  "7010001020270", "410", "数研出版", "数研出版株式会社", "https://www.chart.co.jp",
   "1010001020227", "411", "駿河台出版社", "株式会社駿河台出版社", "https://www.e-surugadai.com",
   NA_character_, "412", "聖教新聞社", NA_character_, "https://www.seikyoonline.com",
   "2011101010901", "413", "青春出版社", "株式会社青春出版社", "http://www.seishun.co.jp",
@@ -189,6 +190,7 @@ df_publisher <-
   "7010901048733", "576", "EDITORS", "株式会社EDITORS", "https://editorsinc.jp",
   "8010001007003", "577", "フレーベル館", "株式会社フレーベル館", "https://www.froebel-kan.co.jp",
   "4130001011624", "578", "文英堂", "株式会社文英堂", "https://www.bun-eido.co.jp",
+  "3011005000386", "579", "文化学園 文化出版局", "学校法人文化学園", "https://books.bunka.ac.jp",
   "7010001136661", "580", "文研出版", "文研出版販売株式会社", "https://www.shinko-keirin.co.jp/bunken/",
   "9010001028766", "583", "ベースボール・マガジン社", "株式会社ベースボールマガジン社", "https://www.bbm-japan.com",
   "5013301017748", "584", "ベストセラーズ", "株式会社ベストセラーズ", "https://www.bestsellers.co.jp",
@@ -277,6 +279,8 @@ df_publisher <-
   "2010001066376", c("89577", "7804"), "メイツ出版", "株式会社メイツユニバーサルコンテンツ", "https://www.mates-publishing.co.jp",
   "4010701022833", c("87962", "7809"), "学研メディカル秀潤社", "株式会社学研メディカル秀潤社", "https://gakken-mesh.jp",
   "6010001079754", c("900568", "87257", "7816"), "イースト・プレス", "株式会社イースト・プレス", "https://www.eastpress.co.jp",
+  "3011101009059", "7837", "思潮社", "株式会社思潮社", "http://www.shichosha.co.jp",
+  "2010001018451", "7880", "新読書社", "株式会社新読書社", "http://shindokusho.jp",
   "5010001018705", "7887", "時事通信社", "株式会社時事通信出版局", "https://bookpub.jiji.com",
   "8011101009054", "7889", "実務教育出版", "株式会社実務教育出版", "https://www.jitsumu.co.jp",
   "7010001201184", "7890", "ジャパンタイムズ出版", "株式会社ジャパンタイムズ出版", "https://jtpublishing.co.jp",
@@ -540,6 +544,15 @@ df_publisher <-
   "1011001039496", c("902091", "86454"), "コスモピア", "コスモピア株式会社", "https://www.cosmopier.com",
   NA_character_, "910315", "クラーケンラボ", NA_character_, "https://krakenbooks.net",
   "9140001073337", "907017", "風詠社", "株式会社風詠社", "https://fueisha.com/",
+  "5020001054237", "904076", "文踊社", "株式会社文踊社", "http://www.bunyosha.com",
+  NA_character_, "89319", "文林堂", NA_character_, NA_character_,
+  "2130001047827", "906806", "文屋秋栄", "文屋秋栄株式会社", "http://fumiya-shuei.com",
+  "8010001002111", c("87380", "86560"), "教育開発研究所", "株式会社教育開発研究所", "https://www.kyouiku-kaihatu.co.jp",
+  "7010001002582", "910899", "恒春閣", "株式会社恒春閣", "https://www.koshunkaku.co.jp",
+  NA_character_, "907902", "忘羊社", NA_character_, "https://bouyousha.com",
+  "4130001018207", c("9900763", "905105"), "德風會・祭祀研究所", "株式会社徳風會・祭祀研究所", "https://tokufukai.gr.jp",
+  "2040003012284", "909868", "志学社", "合同会社志学社", "https://shigakusha.jp",
+  "5011501000953", "87714", "影書房", "株式会社影書房", "http://www.kageshobo.com",
   "1010005002667", c("87437", "86374"), "経済調査会", "一般財団法人経済調査会", "https://www.zai-keicho.or.jp",
   "8020002058944", c("921146", "86110"), "春風社", "有限会社春風社", "http://www.shumpu.com",
   "8230001010752", "9902692", "文苑堂書店", "株式会社文苑堂書店", "http://www.bunendo.com",
@@ -727,4 +740,4 @@ df_publisher <-
   "2010005018464", "906033", "国際ビジネスコミュニケーション協会", "一般財団法人国際ビジネスコミュニケーション協会", "https://www.iibc-global.org"
 )
 
-assertr::verify(df_publisher, nrow(df_publisher) == 719L)
+assertr::verify(df_publisher, nrow(df_publisher) == 732L)
