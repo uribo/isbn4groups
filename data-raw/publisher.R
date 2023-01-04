@@ -942,3 +942,19 @@ df_publisher <-
 )
 
 assertr::verify(df_publisher, nrow(df_publisher) == 933L)
+
+# output ------------------------------------------------------------------
+pins_resources_local <- 
+  pins::board_folder(here::here("data-raw"))
+pins_resources_local |> 
+  pins::pin_write(
+    df_publisher |> 
+      tidyr::unnest(cols = code),
+    name = "isbn-group4-publisher",
+    description = "ISBN13を利用する日本の出版者一覧",
+    type = "csv")
+
+googlesheets4::gs4_create("isbn-group4-publisher",
+                          sheets = list(`出版者一覧` = df_publisher |> 
+                                          tidyr::unnest(cols = code)))
+
