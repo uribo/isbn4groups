@@ -5,7 +5,7 @@ df_publisher <-
   "5011101026036", "01", "旺文社", "株式会社旺文社", "https://www.obunsha.co.jp",
   "8010001115053", "02", "朝日新聞出版", "株式会社朝日新聞出版", "https://publications.asahi.com",
   "1011101004375", "03", "偕成社", "株式会社偕成社", "https://www.kaiseisha.co.jp",
-  "2010001163289", "04", "KADOKAWA", "2010001163289", "https://www.kadokawa.co.jp",
+  "2010001163289", "04", "KADOKAWA", "株式会社KADOKAWA", "https://www.kadokawa.co.jp",
   "8011001034383", "04", "プレビジョン", "株式会社プレビジョン", "http://www.spoon01.com",
   "9010001067748", "04", "角川アスキー総合研究所", "株式会社角川アスキー総合研究所", "https://www.lab-kadokawa.com",
   "2010701022777", "05", "学研プラス", "株式会社学研プラス", "https://gakken-plus.co.jp",
@@ -636,6 +636,7 @@ df_publisher <-
   "1010001021200", c("915764", "88378"), "総合医学社", "株式会社総合医学社", "https://www.sogo-igaku.co.jp",
   "9010101004238", c("938492", "89475"), "白山書房", "株式会社白山書房", "https://www.hakusanshobo.co.jp",
   NA_character_, "87957", "秀英書房", "株式会社秀英書房", NA_character_,
+  "6010005018535", "88929", "日本新聞協会", "一般社団法人日本新聞協会", "https://www.pressnet.or.jp",
   "7050001017775", c("904774", "910558"), "科学情報出版", "科学情報出版株式会社", "https://www.it-book.co.jp",
   "8010001141355", "906738", "航思社", "株式会社航思社", "http://www.koshisha.co.jp",
   "3011001144906", "910165", "英智舎", "株式会社英智舎", "https://eichisha.co.jp",
@@ -941,7 +942,7 @@ df_publisher <-
   "2010005018464", "906033", "国際ビジネスコミュニケーション協会", "一般財団法人国際ビジネスコミュニケーション協会", "https://www.iibc-global.org"
 )
 
-assertr::verify(df_publisher, nrow(df_publisher) == 933L)
+assertr::verify(df_publisher, nrow(df_publisher) == 934L)
 
 # output ------------------------------------------------------------------
 pins_resources_local <- 
