@@ -965,7 +965,11 @@ df_publisher <-
   "2010005018464", "906033", "国際ビジネスコミュニケーション協会", "一般財団法人国際ビジネスコミュニケーション協会", "https://www.iibc-global.org"
 )
 
-assertr::verify(df_publisher, nrow(df_publisher) == 956L)
+df_publisher |> 
+  ensurer::ensure(nrow(.) == 956L) |> 
+  tidyr::unnest(cols = code) |> 
+  dplyr::filter(!dplyr::between(stringr::str_length(code), 2, 7)) |> 
+  ensurer::ensure(nrow(.) == 0L)
 
 # output ------------------------------------------------------------------
 pins_resources_local <- 
