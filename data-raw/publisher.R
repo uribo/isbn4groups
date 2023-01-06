@@ -978,7 +978,13 @@ pins_resources_local |>
     description = "ISBN13を利用する日本の出版者一覧",
     type = "csv")
 
-googlesheets4::gs4_create("isbn-group4-publisher",
-                          sheets = list(`出版者一覧` = df_publisher |> 
-                                          tidyr::unnest(cols = code)))
+# Create
+# googlesheets4::gs4_create("isbn-group4-publisher",
+#                           sheets = list(`出版者一覧` = df_publisher |> 
+#                                           tidyr::unnest(cols = code)))
+# Update
+googlesheets4::write_sheet(df_publisher |> 
+                             tidyr::unnest(cols = code),
+                           ss = googlesheets4::gs4_find("isbn-group4-publisher")$id,
+                           sheet = "出版者一覧")
 
