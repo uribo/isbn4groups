@@ -105,6 +105,7 @@ df_publisher <-
   "5010001000877", "341", "ごま書房新社", "株式会社ごま書房新社", "https://gomashobo.com",
   "3011001029520", c("87728", "344"), "幻冬舎", "株式会社幻冬舎", "https://www.gentosha.co.jp",
   "1011101007477", "378", "さ・え・ら書房", "株式会社さ，え，ら書房", "https://www.saela.co.jp",
+  "6010001140219", "380", "三一書房", "株式会社三一書房", "https://31shobo.com",
   "6010901004836", "382", "産業能率大学出版部", "株式会社産業能率大学出版部", "https://www.sannopub.co.jp",
   "2010401025989", c("89353", "594", "383"), "扶桑社", "株式会社扶桑社", "http://www.fusosha.co.jp",
   "4011001059905", "384", "三修社", "株式会社三修社", "https://www.sanshusha.co.jp",
@@ -117,6 +118,7 @@ df_publisher <-
   "3011101043883", "395", "彰国社", "株式会社彰国社", "https://www.shokokusha.co.jp",
   "8010001019089", "396", "祥伝社", "株式会社祥伝社", "https://www.shodensha.co.jp",
   "7010001204393", "398", "昭文社", "株式会社昭文社", "https://www.mapple.co.jp",
+  "8011101008857", "400", "新教出版社", "株式会社新教出版社", "https://www.shinkyo-pb.com",
   "6010001019999", "401", "シンコーミュージック・エンタテイメント", "株式会社シンコーミュージック・エンタテイメント", "https://www.shinko-music.co.jp",
   "7120001023849", "402", "新興出版社", "株式会社新興出版社啓林館", "https://www.shinko-keirin.co.jp/shinko/",
   "2010001003577", "403", "新書館", "株式会社新書館", "https://www.shinshokan.co.jp",
@@ -167,6 +169,7 @@ df_publisher <-
   "3010401060168", c("901823", "86443"), "日経BPコンサルティング", "株式会社日経ビーピーコンサルティング", "https://consult.nikkeibp.co.jp",
   "3011805002185", "501", "東京電機大学出版局", "学校法人東京電機大学", "https://www.tdupress.jp",
   "1010001022710", c("481", "502"), "中央経済社", "株式会社中央経済社ホールディングス", "https://www.chuokeizai.co.jp",
+  "7010001025039", "521", "中山書店", "株式会社中山書店", "https://www.nakayamashoten.jp",
   "5011601004953", "522", "永岡書店", "株式会社永岡書店", "https://www.nagaokashoten.co.jp",
   "1010001025077", "523", "南雲堂", "株式会社南雲堂", "https://www.nanun-do.co.jp",
   "4010001005687", "524", "南江堂", "株式会社南江堂", "https://www.nankodo.co.jp",
@@ -235,6 +238,7 @@ df_publisher <-
   "2011102017144", c("939076", "86064"), "ベレ出版", "有限会社ベレ出版", "https://www.beret.co.jp",
   NA_character_, "9911096", "丸竹書房", NA_character_, "https://marutakesyobou.com",
   "7010001022093", c("88475", "8124", "8019"), "竹書房", "株式会社竹書房", "https://www.takeshobo.co.jp/index",
+  "2010001132277", "7503", "明石書店", "株式会社明石書店", "https://www.akashi.co.jp",
   "4010001009069", "7505", "亜紀書房", "株式会社亜紀書房", "https://www.akishobo.com",
   "3010401081858", "7511", "旭屋出版", "株式会社旭屋出版", "https://asahiya-jp.com",
   "5011101000833", "7515", "あすなろ書房", "株式会社あすなろ書房", "http://www.asunaroshobo.co.jp/home/index.html",
@@ -243,6 +247,7 @@ df_publisher <-
   "2130001022243", "7538", "芸艸堂", "美術書出版株式会社芸艸堂", "https://www.unsodo.net/jp/",
   "2010001012727", "7539", "エール出版社", "株式会社エール出版社", "http://www.yell-books.com",
   "4010005016648", "7547", "大蔵財務協会", "一般財団法人大蔵財務協会", "https://www.zaikyo.or.jp",
+  "2010001001597", "7553", "音羽書房鶴見書店", "株式会社音羽書房鶴見書店", "http://www.otowatsurumi.com",
   "6013301031129", "7562", "パイインターナショナル", "株式会社パイインターナショナル", "https://pie.co.jp",
   "6010001000488", "7566", "ありな書房", "株式会社ありな書房", "https://arina223.wixsite.com/mysite",
   "5010002000240", c("87030", "7569"), "明日香出版社", "有限会社明日香出版社", "https://www.asuka-g.co.jp",
@@ -322,6 +327,7 @@ df_publisher <-
   "7013301008646", c("8087", "8017"), "東京美術", "株式会社東京美術", "https://www.tokyo-bijutsu.co.jp",
   "3011101001718", "8022", "イカロス出版", "イカロス出版株式会社", "https://www.ikaros.jp",
   "4011001064517", c("89369", "86100", "8025"), "ビー・エヌ・エヌ", "株式会社ビー・エヌ・エヌ", "http://www.bnn.co.jp",
+  "5010001102079", "8043", "大蔵出版", "大藏出版株式会社", "https://www.daizoshuppan.jp",
   "2010001050363", "8051", "千倉書房", "株式会社千倉書房", "https://www.chikura.co.jp",
   "3010001004905", "8054", "チャイルド本社", "株式会社チャイルド本社", "https://www.childbook.co.jp",
   "2010001050215", "8055", "中央公論美術出版", "株式会社中央公論美術出版", "https://www.chukobi.co.jp",
@@ -352,6 +358,7 @@ df_publisher <-
   "4010601013197", "7911", "星和書店", "株式会社星和書店", "http://seiwa-pb.co.jp",
   "2010001023179", "8071", "帝国書院", "株式会社帝国書院", "https://www.teikokushoin.co.jp",
   "7010001005222", "8079", "東京化学同人", "株式会社東京化学同人", "http://www.tkd-pbl.com",
+  "2010001005557", "8100", "図書文化社", "株式会社図書文化社", "http://www.toshobunka.co.jp",
   "3011101014265", "8103", "同文書院", "株式会社同文書院", "https://www.dobun.co.jp",
   "9010001004899", "8113", "汐文社", "株式会社汐文社", "https://www.choubunsha.com",
   "3010001082934", c("88482", "8118"), "太郎次郎社エディタス", "株式会社太郎次郎社エディタス", "http://www.tarojiro.co.jp",
@@ -368,6 +375,7 @@ df_publisher <-
   "6011301005433", "8208", "日本標準", "株式会社日本標準", "https://www.nipponhyojun.co.jp",
   "4010701003206", c("906282", "87688", "86395", "8233"), "幸福の科学出版", "幸福の科学出版株式会社", "https://www.irhpress.co.jp",
   "4011001072882", c("906866", "86554", "8240"), "オーバーラップ", "株式会社オーバーラップ", "https://over-lap.co.jp",
+  "5010001026897", "8269", "白揚社", "株式会社白揚社", "https://www.hakuyo-sha.co.jp",
   "5011101017662", c("938238", "89386", "8272"), "ぱる出版", "株式会社ぱる出版", "https://www.pal-pub.jp",
   "1011101060518", "8284", "ビジネス社", "株式会社ビジネス社", "https://www.business-sha.co.jp",
   "1260001011820", "8288", "ベネッセコーポレーション", "株式会社ベネッセコーポレーション", "https://www.benesse.co.jp",
@@ -840,6 +848,37 @@ df_publisher <-
   "7011101024137", c("89346", "86280"), "総合法令出版", "総合法令出版株式会社", "http://www.horei.com",
   "2290001011370", "87035", "梓書院", "株式会社梓書院", "https://www.azusashoin.com",
   "8180002055934", c("902731", "908436"), "樹林舎", "有限会社樹林舎", "https://jurinsha.com",
+  "4010001053083", "89063", "並木書房", "株式会社並木書房", "http://www.namiki-shobo.co.jp",
+  NA_character_, "906811", "明治大学出版会", NA_character_, "https://www.meiji.ac.jp/press/",
+  NA_character_, "910946", "月と梟出版", NA_character_, "https://moon-owl.jp",
+  "2020001029308", "89660", "有隣堂", "株式会社有隣堂", "https://www.yurindo.co.jp/yurin/sinsho",
+  "5030003007456", "908568", "書肆子午線", "合同会社書肆子午線", "http://shoshi-shigosen.co.jp",
+  "7130001063084", "909862", "木立の文庫", "株式会社木立の文庫", "https://kodachino.co.jp",
+  "6010002035104", "903883", "東京キララ社", "有限会社東京キララ社", "https://www.tokyokirara.com",
+  NA_character_, "903927", "東京創作出版", NA_character_, "https://www.sosaku.info",
+  "7011001016382", c("924544", "88742"), "東京出版", "株式会社東京出版", "https://www.tokyo-s.jp",
+  "5080401011385", c("903859", "86474"), "静岡学術出版", "株式会社ITSC", "https://www.itsc-ltd.co.jp",
+  "3011001113332", "9910543", "ARI占星学総合研究所", "株式会社グランドトライン", "https://www.arijp.com",
+  "7011302005621", c("906641", "86215"), "高志書院", "有限会社高志書院", "http://www.koshi-s.jp",
+  "1100001003123", "89341", "ほおずき書籍", "鬼灯書籍株式会社", "http://www.hoozuki.co.jp/companyinfo.php",
+  "1011603003214", "910064", "万代宝書房", "万代宝書房合同会社", "http://bandaiho.com",
+  "4010001062142", c("930887", "903485", "86562"), "日本写真企画", "株式会社日本写真企画", "https://www.photo-con.com",
+  NA_character_, "909378", "教育情報出版", NA_character_, "https://kyoiku-joho.jp",
+  "2120001243600", "910850", "托口出版", "株式会社托口出版", "https://takkoubooks.com",
+  "8020002024062", c("915730", "86520"), "成文社", "有限会社成文社", "https://www.seibunsha.net",
+  "6010001010669", "87071", "市ケ谷出版社", "株式会社市ヶ谷出版社", "http://www.ichigayashuppan.co.jp",
+  "7130003005522", "909782", "小さ子社", "合同会社小さ子社", "https://www.chiisago.jp",
+  "9010001020839", "88125", "専修大学出版局", "株式会社専大センチュリー", "http://www.senshu-up.jp",
+  "2180001034060", c("901095", "86333"), "あるむ", "株式会社あるむ", "http://www.arm-p.co.jp",
+  "4010801000920", c("900963", "910962"), "いそっぷ社", "株式会社いそっぷ社", "https://isopsha.com",
+  "5010001104488", "904188", "えほんの杜", "株式会社えほんの杜", "https://ehonnomori.co.jp",
+  "6100001006939", "903002", "しなのき書房", "株式会社しなのき書房", "http://shinanoki.net",
+  "3021002028446", c("903355", "910973"), "ななみ書房", "有限会社ななみ書房", "http://773books.jp",
+  "6010001006650", c("938536", "89464"), "ひとなる書房", "株式会社ひとなる書房", "http://hitonarushobo.jp",
+  NA_character_, "908955", "ふげん社", NA_character_, "https://fugensha.jp",
+  "2010001108277", "88043", "じゃこめてい出版", "株式会社じゃこめてい出版", "https://jakometei.com",
+  "4011001125509", c("909957", "916221"), "すみれ書房", "すみれ書房株式会社", "https://sumire-shobo.com",
+  "7120001249502", c("915655", "88416"), "せせらぎ出版", "株式会社せせらぎ出版", "https://www.seseragi-s.com",
   "2011001007543", c("906645", "905937", "87609"), "玄文社", "株式会社玄文社", "https://genbun-sha.co.jp",
   "5011101006319", "87798", "現代人文社", "株式会社現代人文社", "http://www.genjin.jp",
   "2010001004591", c("924363", "88551", "86272"), "短歌研究社", "株式会社短歌研究社", "https://www.tankakenkyu.co.jp",
@@ -967,7 +1006,7 @@ df_publisher <-
 
 df_publisher_long <- 
   df_publisher |> 
-  ensurer::ensure(nrow(.) == 956L) |> 
+  ensurer::ensure(nrow(.) == 995L) |> 
   tidyr::unnest(cols = code)
 
 df_publisher_long_mod <- 
@@ -978,7 +1017,7 @@ df_publisher_long_mod <-
 
 x <- 
   df_publisher_long_mod |> 
-  pull(code) |> 
+  dplyr::pull(code) |> 
   as.numeric()
 # integer(0)でない箇所は間違いの可能性あり
 df_publisher_long_mod[which((x <= dplyr::lead(x)) == FALSE)+1, ] |> 
@@ -1004,4 +1043,6 @@ googlesheets4::write_sheet(df_publisher |>
                              tidyr::unnest(cols = code),
                            ss = googlesheets4::gs4_find("isbn-group4-publisher")$id,
                            sheet = "出版者一覧")
+
+
 
