@@ -1,7 +1,7 @@
 ISBN-13における日本語での出版物に関するさまざまなデータ
 =================
 
-出版物に関するデータを収集し、csv形式とGoogle Drive上で提供しています。
+出版物に関するデータを収集し、csv形式と[Google Sheets上](https://docs.google.com/spreadsheets/d/1K0wVDUy4PMAHVdqh3S61VliXeZxwhWpfZLrmbJ4qZiU/edit?usp=sharing)で提供しています。
 データの追加や修正を歓迎します。
 
 [pins](https://github.com/rstudio/pins-r)を使ってR、Pythonで簡単に読み込むことができます。
