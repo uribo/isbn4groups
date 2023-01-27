@@ -1050,6 +1050,8 @@ pins_resources_local |>
     name = "isbn-group4-publisher",
     description = "ISBN13を利用する日本の出版者一覧",
     type = "csv")
+pins_resources_local |> 
+  pins::write_board_manifest()
 
 # Create
 # googlesheets4::gs4_create("isbn-group4-publisher",
