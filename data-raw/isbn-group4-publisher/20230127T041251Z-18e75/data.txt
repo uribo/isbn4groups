@@ -1,0 +1,8 @@
+file: isbn-group4-publisher.csv
+file_size: 152509
+pin_hash: 18e759eef8259fd1
+type: csv
+title: 'isbn-group4-publisher: a pinned 1504 x 5 data frame'
+description: ISBN13を利用する日本の出版者一覧
+created: 20230127T041251Z
+api_version: 1.0
