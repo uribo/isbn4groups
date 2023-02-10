@@ -23,6 +23,16 @@ df_publisher |>
 
 df_publisher <- 
   df_publisher |> 
+  mutate(toc = case_match(
+    name,
+    c("東京大学出版会", "ダイヤモンド社", "河出書房新社", "光文社",
+      "東洋経済新報社", "山と溪谷社", "サイエンス社", "皓星社",
+      "秀和システム", "学芸出版社") ~ TRUE,
+    c("原書房", "文藝春秋", "日本実業出版社") ~ FALSE
+  ))
+
+df_publisher <- 
+  df_publisher |> 
   mutate(domain = case_match(
     name,
     "文藝春秋" ~ "https://books.bunshun.jp",
