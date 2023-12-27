@@ -140,8 +140,10 @@ df_publisher <-
   "3010001208860", "418", "世界文化社", "株式会社世界文化社", "https://www.sekaibunka.com",
   "2011101010959", "419", "税務経理協会", "株式会社税務経理協会", "http://www.zeikei.co.jp",
   "8010001021169", "420", "集英社クリエイティブ", "株式会社集英社クリエイティブ", NA_character_,
+  "5010401045183", "421", "近代消防", "近代消防社", "https://www.ff-inc.co.jp",
   "3120001082865", "422", "創元社", "株式会社創元社", "https://www.sogensha.co.jp",
   "2120001044775", "424", "増進堂・受験研究社", "株式会社増進堂", "https://www.zoshindo.co.jp",
+  "2011101010892", "425", "成山堂書店", "株式会社成山堂書店", "https://www.seizando.co.jp",
   "9010001046231", "426", "自由国民社", "株式会社自由國民社", "https://www.jiyu.co.jp",
   "7120001065882", "433", "清文社", "株式会社清文社", "https://www.skattsei.co.jp",
   "9013301036463", "434", "彗星社", "株式会社彗星社", "https://suiseisha.jp",
@@ -577,7 +579,6 @@ df_publisher <-
   "3010001001233", c("900901", "86403"), "戎光祥出版", "戎光祥出版株式会社", "https://www.ebisukosyo.co.jp",
   "2010001002496", c("906319", "87791"), "国際書院", "株式会社国際書院", "http://www.kokusai-shoin.co.jp",
   "5010402010888", "909649", "日比谷出版社", "有限会社日比谷出版社", NA_character_,
-  
   "1010001060207", "89775", "ライフサイエンス出版", "ライフサイエンス出版株式会社", "https://lifescience.co.jp",
   "8140001103441", "909044", "ライツ社", "株式会社ライツ社", "https://wrl.co.jp",
   NA_character_, "89717", "ヨシモトブックス", NA_character_, "https://books.yoshimoto.co.jp",
@@ -1040,7 +1041,7 @@ df_publisher <-
 
 df_publisher_long <- 
   df_publisher |> 
-  ensurer::ensure(nrow(.) == 1026L) |> 
+  ensurer::ensure(nrow(.) == 1028L) |> 
   tidyr::unnest(cols = code)
 
 df_publisher_long_mod <- 
@@ -1070,6 +1071,7 @@ pins_resources_local |>
 pins_resources_local |> 
   pins::write_board_manifest()
 
+library(httpuv)
 # Create
 # googlesheets4::gs4_create("isbn-group4-publisher",
 #                           sheets = list(`出版者一覧` = df_publisher |> 
